@@ -1,0 +1,24 @@
+//all commands correspond to the course pdf 
+
+
+
+diff fruitsNew.txt fruitsOld.txt
+add and remove
+wc -l testPasswd.txt
+wc -m testPasswd.txt
+cut -d ":" -f 1 testPasswd.txt
+cut -d " " -f 2,4 grades.txt
+-d ":" -f 4 testPasswd.txt | sort | uniq
+cut -d ":" -f 4 testPasswd.txt | sort | uniq  | tee tmp
+grep -R '^[mws]' testPasswd.txt |  cut -d ":" -f 1 
+sed 's/0/o/' leetSpeak.txt
+sed 's/[a-z]//g' leetSpeak.txt
+sed 's/[0-9]//g' leetSpeak.txt
+sed 's/[0-9]/_/g' leetSpeak.txt
+sed 's/0/o/g;s/4/a/g;s/3/e/g;s/7/t/g;s/5/s/g;s/1/i/g' leetSpeak.txt
+awk '{print $1, $2, ($3+$4+$5+$6+$7)/5}' grades.txt
+egrep '^[0-9]+-' regex_practice_data.txt |wc -l
+egrep '303-441' regex_practice_data.txt|wc -l
+egrep '@' regex_practice_data.txt|wc -l
+egrep '.gov$' regex_practice_data.txt |wc -l
+egrep -c '^[A-M0-9a-m]+\.[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]+$' regex_practice_data.txt
