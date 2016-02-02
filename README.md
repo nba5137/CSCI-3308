@@ -1,2 +1,2 @@
 # CSCI-3308
-I put all my works during this course here. :)
+I put all my works during this course here :)
