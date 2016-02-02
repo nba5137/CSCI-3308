@@ -1,0 +1,44 @@
+//all commands correspond to the course pdf 
+
+find $PWD -type f -name "*.c" 
+
+
+date:      show the current date and time
+ls -ltr:   list files in long time reversed order, so that the most recent are at the bottom
+cd .. :    change directory
+pwd:       show current directory
+who:       displays a list of users who are currently logged into the computer
+whoami:    who you are logged in as
+man man:   displays the online manual pages
+env:       print out a list of all environment variables
+
+
+
+
+mkdir cs3308 
+mv cs3308 csci3308
+cp oldfilename newfilename
+rm newfilename
+mkdir tmp
+rmdir tmp
+cat  filename
+tac  filename
+head filename
+tail filename
+grep -R "the" directory
+find -name filename
+zip dir.zip filename
+unzip dir.zip -d tmp
+tar -cvf dir.tar filename
+tar -xvf dir.tar -C tmp
+touch filename
+
+sort file
+sort -t: -k 3 -g file
+sort -t: -k 4 -g file
+grep -R Marx file
+cat -n file
+cat -n file >tmp
+cat -n file>tmp.sh
+tmp1.sh
+./tmp1.sh
